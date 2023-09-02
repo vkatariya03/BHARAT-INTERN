@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIML Student's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(8, 8, 43);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(14, 14, 78);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 24px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(174, 158, 233);
+        font-size: 1.02rem;
+      }
+
+      nav ul li .btn{
+      padding: 7px;
+      background-color: rgb(14, 14, 78);
+      border: 0.5px solid white;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(58, 58, 145);
+        height: 3px;
+        margin: 50px 84px;
+      }
+
+      .left {
+        font-size: 2.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+      .firstSection div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 5rem;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: white;
+      }
+
+      #element {
+        color: white;
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 70vh;
+      }
+
+      .secondSection h1 {
+        text-align: center;
+
+        font-size: 2.5rem;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+      }
+
+      .text {
+        font-size: 1.9rem;
+      }
+
+      .thirdSection {
+        max-width: 80w;
+        margin: auto;
+        height: 80vh;}
+
+        .thirdSection h2 {
+        text-align: center;
+
+        font-size: 2.5rem;
+      }
+
+      .thirdSection .box2{
+        background: white;
+        width: 100vw;
+        height: 2px;
+        margin: 56px 0;
+
+        display: flex;
+
+      }
+
+      .thirdSection .vertical{
+        height: 70px;
+        width: 2px;
+        background-color: white;
+        margin: 0 190px;
+
+      }
+
+      .vertical-title{
+        position: relative;
+        top: 74px;
+        width: 400px;
+        font-size: 25px;
+        color: rgb(171, 171, 221);
+
+      }
+
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        width: 400px;
+        font-size: 25px;
+
+      }
+
+      .vertical-title1{
+        position: relative;
+        top: 74px;
+        width: 400px;
+        font-size: 25px;
+        color: rgb(171, 171, 221);
+
+      }
+
+      .vertical-desc1{
+        position: relative;
+        top: 86px;
+        width: 400px;
+        font-size: 25px;
+
+      }
+
+      .vertical-title2{
+        position: relative;
+        top: 74px;
+        width: 400px;
+        font-size: 25px;
+        color: rgb(171, 171, 221);
+
+      }
+
+      .vertical-desc2{
+        position: relative;
+        top: 86px;
+        width: 400px;
+        font-size: 25px;
+
+      }
+
+      .footer{
+        background-color: rgb(147, 119, 184);
+        height: 200px;
+      
+      }
+
+      .footer{
+        display: flex;
+        padding: 50px 122px;
+        font-size: 20px;
+        justify-content: space-evenly;
+      }
+
+      footer .footer-rights{
+        text-align: center;
+        font-size: 25px;
+        color: rgb(58, 58, 88);
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vatsalya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><button class="btn"><a href="/">HOME</a></li></button>
+            <li><button class="btn"><a href="/">RESUME</a></li></button>
+            <li><button class="btn"><a href="/">CERTIFICATES</a></li></button>
+            <li><button class="btn"><a href="/">CONTACT ME</a></li></button>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+        
+          <span id="element"></span>
+        
+        </div>
+        <div class="rightSection">
+          <img src="bg.png.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondSection">
+        <h1>ABOUT ME</h1>
+
+        <div class="box"></div>
+
+        <div class="text">
+        I'm Vatsalya Katariya, Currently an Under- Graduate Student pursuing B.Tech 
+        in Computer Science with
+          specializaztion in Artificial Intelligence and Machine Learning
+          (AIML), attending Technocrats Institute of Technology, RGPV
+          University, Bhopal (M.P.). Proficient in various programming
+          languages such as C, C++, Python. Have an excellent analytical and
+          communication skills, which I am looking forward to use to become Data
+          Analyst.
+        </div>
+      </section>
+
+      <div class="thirdSection">
+        <h2>ACADEMIC</h2>
+
+        <div class="box2">
+            <div class="vertical">
+                <div class="vertical-title">
+                    HIGHER SECONDARY (2018-19)</div>
+
+            <div class="vertical-desc">
+                Bardsley English Medium Sr. Sec. School
+                          Katni(M.P.)
+                       <li>Percentage- 75%</li>
+                        </div>
+
+            </div>
+            
+            <div class="vertical">
+                <div class="vertical-title1">
+                    SENIOR SECONDARY (2020-21)</div>
+
+            <div class="vertical-desc1">
+                COMPUTER SCIENCE-
+                Bardsley English Medium Sr. Sec. School
+                          Katni(M.P.)
+                       <li>Percentage- 78%</li>
+                        </div>
+            </div>
+
+            <div class="vertical">
+                <div class="vertical-title2">
+                    UNDER-GRADUATION (2021-25)</div>
+
+            <div class="vertical-desc2">
+                B.Tech in Computer Science(AIML)-
+                Technocrats Institute Of Technology(RGPV), Bhopal(M.P.)
+                        </div>
+            </div>
+        </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h2>Email</h2>
+                    shashakatariya@gmail.com
+                </div>
+
+                <div class="footer-second">
+                    <h3>GitHub</h3>
+                https://github.com/vkatariya03
+                </div>
+                
+                
+                <div class="footer-third">
+                    <h3>LinkedIn</h3>
+                    https://www.linkedin.com/in/vatsalya-katariya-756583237
+                </div>
+
+                <div class="footer-fourth">
+                    <h4>Contact</h4>
+                    +918818879360
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyrights &#169; www.vatsalyasportfolio.com | All rights reserved
+            </div>
+        </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Hello, World!!!"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
